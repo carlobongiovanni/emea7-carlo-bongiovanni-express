@@ -27,7 +27,7 @@ spec:
           - name: source-repo
             value: https://github.com/carlobongiovanni/emea7-carlo-bongiovanni-express
           - name: image-repo
-            value: quay.io/tillus/express-app
+            value: quay.io/cbongiovanni81/express-app
         serviceAccountName: build-bot
         pipelineRef:
           name: build-push-express
